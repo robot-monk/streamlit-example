@@ -33,7 +33,7 @@ In the meantime, below is an example of what you can do with just a few lines of
     st.altair_chart(alt.Chart(pd.DataFrame(data), height=500, width=500)
         .mark_circle(color='#0068c9', opacity=0.5)
         .encode(x='x:Q', y='y:Q'))
-0 comments on commit d8af0ae
+
 with st.echo(code_location='below'):
     total_points = st.slider("Amount of income", 1, 6000, 0)
     total_points = st.slider("Number of points in spiral", 1, 6000, 2000)
