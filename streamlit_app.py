@@ -1,9 +1,8 @@
-@@ -1,4 +1,3 @@
 
 from collections import namedtuple
 import altair as alt
 import math
-@@ -7,37 +6,18 @@
+
 
 """
 # Welcome to Streamlit!
