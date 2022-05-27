@@ -17,5 +17,5 @@ In the meantime, below is an example of what you can do with just a few lines of
 
 
 with st.echo(code_location='below'):
-    total_points = st.text("Amount of income", 1, 6000, 2000)
+    total_points = st.slider("Amount of income", 1, 6000, 0)
     num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
