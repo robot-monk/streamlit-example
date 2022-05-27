@@ -32,9 +32,9 @@ with st.echo(code_location='below'):
         .encode(x='x:Q', y='y:Q'))
 
 with st.echo(code_location='below'):
-    total_points = st.slider("Amount of income", 1, 6000, 0)
+    
     total_points = st.slider("Number of points in spiral", 1, 6000, 2000)
-    total_points = st.text("Amount of income", 1, 6000, 2000)
+    
     num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
 
     Point = namedtuple('Point', 'x y')
