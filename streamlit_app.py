@@ -39,4 +39,4 @@ with st.echo(code_location='below'):
     
     
     
-    st.write(m.run(window=100))
+    st.write("""My first Streamlit""")
