@@ -19,8 +19,7 @@ with st.echo(code_location='below'):
 
     st.altair_chart(alt.Chart(pd.DataFrame(data), height=500, width=500)
         .mark_circle(color='#0068c9', opacity=0.5)
-        .encode(x='x:Q', y='y:Q'))
-0 comments on commit d8af0ae
+        .encode(x='x:Q', y='y:Q')
 with st.echo(code_location='below'):
     total_points = st.slider("Number of points in spiral", 1, 6000, 2000)
     total_points = st.text("Amount of income", 1, 6000, 2000)
